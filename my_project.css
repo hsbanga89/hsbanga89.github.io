@@ -1,0 +1,343 @@
+/* >> CSS Style Sheet - My Technical World << */
+
+body{
+	font-family: calibri;
+	background-color: #ededed;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#anchor img{
+	width: 100%;
+	height: 278px;
+}
+h1{
+	text-align: center;
+}
+.h4{
+	color: rgb(0,66,144);
+}
+.nav2{
+	height: 22px;
+	background: #454545;
+	width: 100%;
+	margin-top: -0.22%;
+	margin-left: -40px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 23px;	
+}
+.nav2 li{
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.nav2 li a{
+	text-decoration: none;
+	color: #f2f5f9;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#clock{
+	position: absolute;
+	top: 39%; left: 90%;
+	display: inline-block;
+	font-family: courier new;
+	font-size: 14px;
+	float: right;
+	margin-right: 5%;
+	color: #f2f5f9;
+}
+.dropdown .dropbtn{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+.dropdown .dropbtn:before{
+	content: '\FE3E';
+	position: absolute;
+	opacity: 0;
+	top: 0px;
+	left: -15px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.dropdown:hover .dropbtn:before{
+	opacity: 1;
+	top: 8px;
+}
+.dropdown .dropbtn:after{
+	content: '\FE3E';
+	position: absolute;
+	opacity: 0;
+	top: 0px;
+	right: -15px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.dropdown:hover .dropbtn:after{
+	opacity: 1;
+	top: 8px;
+}
+.dropdown:hover .dropbtn{
+	top: -1.5px;
+	transition: 0.5s;
+}
+.dropdown:hover .drop_content{
+	display: block;
+}
+.drop_content{
+	display: none;
+	width: 171px;
+	left: 38.5%;
+	text-align: center;
+	position: absolute;
+	background: #454545;
+	box-shadow: 2px 3px 5px 1px rgb(0,0,0,0.5);
+	z-index: 1;
+	border-radius: 0 0 8px 8px;
+	padding-left: 5px;
+	padding-bottom: 6px;
+}
+.drop_content a{
+	color: #707070;
+	text-decoration: none;
+	display: block;
+	opacity: 0.4;
+	padding-top: 3px;
+}
+.drop_content a:hover{
+	opacity: 1;
+	color: #f2f5f9;
+	text-shadow: -1px 0px 0px 10px #454545;
+}
+#right_top{
+	width: 40px;
+	margin: 0 0 2% 95%; 
+	padding: 1px 5px 1px 5px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: rgb(215,215,215);
+	border-radius: 20px;
+	box-shadow: 0px 2px 5px 2px rgb(0,0,0,0.5);
+}
+#right_top a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(56,56,56);
+}
+#right_top a:active{
+	font-weight: bold;
+	color: rgb(185,56,56);
+}
+.box{
+	/* Check Gallery Section for Gallery Div */
+	width: 96%;
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+	font-size: 15px;
+}
+
+/* index.html - Start */
+.bodylink{
+	text-align: center;
+}
+.bodylink a{
+	text-decoration: none;
+}
+.bodylink a:visited{
+	color: rgb(25,25,116);
+}
+.tooltip1{
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	margin: 0;
+}
+.tip1_text{
+	visibility: hidden;
+	white-space: nowrap;
+	background-color: #909296;
+	color: #fff;
+	text-align: center;
+	padding: 3px 5px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 105%; left: 50%;
+	margin-left: -68px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.tip1_text a{
+	color: #2a2c30;
+	font-style: inherit;
+	text-decoration: none;
+}
+.tooltip1 .tip1_text:after{
+	position: absolute;
+	border: 5px solid;
+	border-color: #909296 transparent transparent transparent;
+	content: "";
+	top: 100%; left: 50%;
+}
+.tooltip1:hover .tip1_text{
+	visibility: visible;
+	opacity: 1;
+}
+/* index.html - End */
+
+/* details.html - Start */
+table{
+	width: 95%;
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+}
+th{
+	border: 2px solid black;
+	padding: 2px;
+	background: #909296;
+}
+td{
+	border: 2px solid black;
+	padding-left: 10px;
+}
+table .spec_head{
+	font-family: courier new;
+	font-weight: bold;
+}
+.vid{
+	padding: 0px;
+}
+.mar_fix{
+	margin-bottom: -4px;
+}
+/* details.html - End */
+
+/* gallery.html - Start */
+ul{
+	list-style:none;
+	}
+.gallery{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	overflow: auto;
+	}
+.gallery ul{
+	padding-left: 10px;
+	}
+.gallery li{
+	display: inline;
+	margin-right: 6px;
+}
+.gallery li img{
+	box-shadow: 0px 0px 0px 4px #848484;
+	}
+.gallery .main-img{
+	background: url(images/bg.png) no-repeat 0 0;
+	padding: 13px;
+	}
+.descrip{
+	border: 1px solid white;
+	padding: 2px;
+	margin: 20px auto 20px auto;
+	width: 630px;
+}
+.gallery img{
+	box-shadow: 0px 0px 5px 6px #848484;
+	}
+/* gallery.html - End */
+
+/* contact.html - Start */
+fieldset{
+	width: 50%;
+	margin: auto 20%;
+	font-family: calibri;
+}
+textarea{
+	width: 99%;
+	height: 180px;
+	resize: none;
+}
+fieldset .submiit_button{
+	display: block;
+	margin: 0 0 0.5% 30%;
+}
+.submiit_button input{
+	width: 100px;
+	display: inline;
+}
+legend{
+	font-weight: bold;
+	font-family: courier new;
+	color: #8e8d8d;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+}
+.textfield{
+	display: inline-block;
+	width: 80px;
+}
+/* contact.html - End */
+
+/* Footer - Start */
+footer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 105px;
+	margin-top: 0px;
+}
+footer img{
+	opacity: 1;
+	 width: 100%;
+}
+footer #foot_link{
+	position: absolute;
+	top: 18%;
+	left: 70px;
+	margin: 0;
+	padding: 0;
+	color: #f2f5f9;
+}
+#foot_link a{
+	color: #f2f5f9;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+.copy_icons{
+	position: absolute;
+	top: 44%; left: 70px;
+	width: 35.3%;
+	display: inline-block;
+	border-top: 2px solid #454545;
+	border-bottom: 2px solid #454545;
+}
+.copy_icons img{
+	width: 38px; height: 38px;
+	background-color: #454545;
+	border-radius: 10px;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+footer span{
+	position: absolute;
+	color: #afafaf;
+	top: 59%; left: 19%;
+}
+footer #contact{
+	position: absolute;
+	top: 18%;
+	right: 5%;
+	color: #f2f5f9;
+	margin: 0;
+	padding: 0;
+}
+/* Footer - End */
