@@ -1,277 +1,449 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<meta charset = "utf-8">
-		<title>My Technical World</title>
-		<script type ="text/javascript" src ="my_java.js"></script>
-		<link rel ="stylesheet" type ="text/css" href ="my_project.css" />
-	</head>
-	<body onload="startTime()">
-		<div id ="anchor">
-			<img src ="images/title.jpg" width ="100%" height ="320" alt ="Image not Found"/> <!-- Source : http://www.stbrendanscollege.com/index.php/home/news_description/154/Technology -->
-		</div>
-		<ul class ="nav2">
-			<li><a href ="index.html">Home</a></li>
-			<li class ="dropdown">
-				<a class ="dropbtn" href ="details.html">Details</a>
-				<span class ="drop_content">
-					<a href ="details.html#n3110">Nokia 3110 classic</a>
-					<a href ="details.html#bp">BlackBerry Pearl 9100</a>
-					<a href ="details.html#an53">Asus N53JQ</a>
-					<a href ="details.html#onex">HTC One X</a>
-					<a href ="details.html#m7">HTC One M7</a>
-					<a href ="details.html#m8">HTC One M8</a>
-					<a href ="details.html#s6">Samsung Galaxy S6</a>
-					<a href ="details.html#s7">Samsung Galaxy S7</a>
-					<a href ="details.html#u11">HTC U11</a>
-					<a href ="details.html#s9">Samsung Galaxy S9+</a>
-					<a href ="details.html#omen">HP Omen 15</a>
-					<a href ="details.html#pi3">Raspberry Pi 3 B+</a>
-				</span>
-			</li>
-			<li><a href ="gallery.html">Gallery</a></li>
-			<li><a href ="contact.html">Contact Us</a></li>
-		</ul>
-		<div class ="box">
-		<div id ="clock"></div>
-			<h1>Specifications</h1>
-		<table>
-			<thead>
-				<tr>
-					<th>Devices</th>
-					<th>Specifications</th>
-					<th>TV Commercial</th>
-				<tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th id ="n3110">Nokia 3110 classic</th>
-					<td><ul><li><span class ="spec_head">Resolution:</span> &nbsp; 128 x 160 pixels</li>
-							<li><span class ="spec_head">Camera:</span> &nbsp; 1.3 megapixels</li>
-							<li><span class ="spec_head">Internal storage:</span> &nbsp; 0.009 GB</li>
-							<li><span class ="spec_head">Storage expansion:</span> &nbsp; microSD</li>
-							<li><span class ="spec_head">Battary:</span> &nbsp; 1020 mAh</li>
-							<li><span class ="spec_head">Browser:</span> &nbsp; HTML, XHTML, WAP 2.0, Flash Lite (2.0)</li>
-							<li><span class ="spec_head">GSM:</span> &nbsp; 900, 1800, 1900 MHz</li>
-							<li><span class ="spec_head">2G Data:</span> &nbsp; EDGE</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 2.0</li>
-							<li><span class ="spec_head">USB:</span> &nbsp; Yes</li>
-							<li><span class ="spec_head">Music Support:</span> &nbsp; MP3, AAC, AAC+, eAAC+, WMA, MP4, AMR</li>
-							<li><span class ="spec_head">Video playback:</span> &nbsp; MPEG4, H.263, 3GPP</li>
-							<li><span class ="spec_head">Radio:</span> &nbsp; FM, Stereo</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/HcpPNLLNELs" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="bp">BlackBerry Pearl 9100</th>
-					<td><ul><li><span class ="spec_head">Network:</span> &nbsp; GSM / HSPA</li>
-							<li><span class ="spec_head">Dimensions:</span> &nbsp; 108 x 50 x 13.3 mm</li>
-							<li><span class ="spec_head">Keyboard:</span> &nbsp; QWERTY</li>
-							<li><span class ="spec_head">Resolution:</span> &nbsp; 360 x 400 pixels</li>
-							<li><span class ="spec_head">Card slot:</span> &nbsp; microSD, up to 32 GB</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 256 MB</li>
-							<li><span class ="spec_head">Camera:</span> &nbsp; 3.15 MP, AF</li>
-							<li><span class ="spec_head">Video:</span> &nbsp; Yes</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 b/g/n</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 2.1, A2DP</li>
-							<li><span class ="spec_head">GPS:</span> &nbsp; Yes, with A-GPS</li>
-							<li><span class ="spec_head">Browser:</span> &nbsp; HTML</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Removable Li-Ion 1150 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/7lnNvw1ZCe0" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="an53">Asus N53JQ</th>
-					<td><ul><li><span class ="spec_head">Processor:</span> &nbsp; Intel® Core™ i7 Processor 720QM</li>
-							<li><span class ="spec_head">Operating System:</span> &nbsp; Windows® 7 Home Basic</li>
-							<li><span class ="spec_head">Chipset:</span> &nbsp; Mobile Intel® HM55 Express Chipset</li>
-							<li><span class ="spec_head">Main Memory:</span> &nbsp; 4GB - DDR3 1066 MHz SDRAM</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 15.6" HD (1366x768)/Full HD (1920x1080)</li>
-							<li><span class ="spec_head">Video Graphics:</span> &nbsp; NVIDIA® GeForce® GT 425M with 1GB DDR3 VRAM</li>
-							<li><span class ="spec_head">Hard Drive:</span> &nbsp; 2.5" 9.5mm SATA 640GB,5400rpm</li>
-							<li><span class ="spec_head">Optical Drive:</span> &nbsp; DVD Super Multi Double Layer</li>
-							<li><span class ="spec_head">Card Reader:</span> &nbsp; 5 in 1 card reader SD,MMC,MS,MS-Pro,MS-Duo</li>
-							<li><span class ="spec_head">Video Camera:</span> &nbsp; 2.0 Mega Pixel web camera</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Integrated 802.11 b/g/n</li>
-							<li><span class ="spec_head">Interface:</span> &nbsp; 1 x VGA port, 1 x USB 3.0 port, 2 x USB 2.0 ports, 1 x HDMI</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; 6 cells, 4400 mAh 47 Whrs</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/c84UKNzMQII" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="onex">HTC One X</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 134.36 x 69.9 x 8.9 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 4.7-inch Super LCD2 capacitive touchscreen (720 x 1280)</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android 4.0 (Ice Cream Sandwich)</li>
-							<li><span class ="spec_head">Processor:</span> &nbsp; Quad-core 1.5GHz Tegra 3</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 1GB</li>
-							<li><span class ="spec_head">Storage:</span> &nbsp; 32GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 8-megapixel w/ AF and LED flash</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 1.3-megapixel</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; Corning Gorilla Glass</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; Version 4.0 w/ A2DP</li>
-							<li><span class ="spec_head">NFC:</span> &nbsp; Yes</li>
-							<li><span class ="spec_head">Audio:</span> &nbsp; Beats Audio</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; 1800mAh Non-removable</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/tFdInvU1w4Y" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="m7">HTC One M7</th>
-					<td><ul><li><span class ="spec_head">Size:</span> &nbsp; 137.4 x 68.2 x 9.3mm</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Qualcomm® Snapdragon™ 600, quad-core, 1.7GHz</li>
-							<li><span class ="spec_head">Storage:</span> &nbsp; 32GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 2 GB DDR2</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android™ 4.1.2 (Jelly Bean) with HTC Sense™</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 4.7 inch, Full HD 1080p, 468 PPI</li>
-							<li><span class ="spec_head">Sound Enhancement:</span> &nbsp; HTC BoomSound™, Beats Audio</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 4 MP, f/2.0, 28mm (wide), 1/3", 2µm, OIS, AF</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 2.1 MP</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, hotspot</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 4.0, A2DP, aptX</li>
-							<li><span class ="spec_head">GPS:</span> &nbsp; Yes, with A-GPS, GLONASS</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Embedded Li-polymer 2300 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/N9A8NnBbW_A" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="m8">HTC One M8</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 146.4 x 70.6 x 9.4 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 5.0 inches Super LCD3 (1080 x 1920 pixels)</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android 4.4.2 (KitKat), Sense UI 6</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Quad-core 2.3 GHz Krait 400</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 32 GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 2 GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 4 MP, f/2.0, 27mm (wide), 1/3", 2µm, AF</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 5 MP</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 4.0, A2DP, aptX</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; Corning Gorilla Glass 3</li>
-							<li><span class ="spec_head">GPS:</span> &nbsp; Yes, with A-GPS, GLONASS</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Non-removable Li-Ion 2600 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/u6U-WvJHifk" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="s6">Samsung Galaxy S6</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 143.4 x 70.5 x 6.8 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; Super AMOLED 5.1 inches (1440 x 2560 pixels)</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android 5.0.2 (Lollipop), TouchWiz UI</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Octa-core (4x2.1 GHz Cortex-A57 & 4x1.5 GHz Cortex-A53)</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 32 GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 3 GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 16 MP, f/1.9, 28mm (wide), 1/2.6", 1.12µm, OIS, AF</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 5 MP, f/1.9, 22mm (wide), 1/4.1", 1.34µm</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 4.1, A2DP, LE, aptX</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; Front/back glass (Gorilla Glass 4)</li>
-							<li><span class ="spec_head">GPS:</span> &nbsp; Yes, with A-GPS, GLONASS, BDS</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Non-removable Li-Ion 2550 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/qAJm4XD2mUY" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="s7">Samsung Galaxy S7</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 142.4 x 69.6 x 7.9 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; Super AMOLED 5.1 inches (1440 x 2560 pixels)</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android 6.0 (Marshmallow), TouchWiz UI</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Octa-core (4x2.3 GHz Mongoose & 4x1.6 GHz Cortex-A53)</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 32 GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 4 GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 12 MP, f/1.7, 26mm (wide), 1/2.55", 1.4µm, Dual Pixel PDAF, OIS</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 5 MP, f/1.7, 22mm (wide), 1/4.1", 1.34µm</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 4.2, A2DP, LE, aptX</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; Corning Gorilla Glass 4</li>
-							<li><span class ="spec_head">GPS:</span> &nbsp; Yes, with A-GPS, GLONASS, BDS</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Non-removable Li-Ion 3000 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/T3mlX-9j-Vs" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="u11">HTC U11</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 153.9 x 75.9 x 7.9 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 5.5 inch, Quad HD  (2560 x 1440 pixels) Super LCD 5</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android™ 7.1.1 with HTC Sense™</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Qualcomm® Snapdragon™ 835, 64 bit octa-core, up to 2.45 Ghz</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 64GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 4 GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; 12MP (HTC UltraPixel™ 3 with 1.4μm pixel)</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 16MP</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi® 802.11 a/b/g/n/ac (2.4 & 5 GHz)</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; BlueTooth® 5.0</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; 3D Corning® Gorilla® Glass 5</li>
-							<li><span class ="spec_head">Connection Ports:</span> &nbsp; USB 3.1 Gen 1, Type-C</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; 3000 mAh</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/vbC4q_2nq5I" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="s9">Samsung Galaxy S9 Plus</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 147.7 x 68.7 x 8.5 mm</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 2960 x 1440 (Quad HD+) Super AMOLED (6.1" rounded corners)</li>
-							<li><span class ="spec_head">OS:</span> &nbsp; Android 8.0 (Oreo)</li>
-							<li><span class ="spec_head">CPU:</span> &nbsp; Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)</li>
-							<li><span class ="spec_head">Internal:</span> &nbsp; 64 GB</li>
-							<li><span class ="spec_head">RAM:</span> &nbsp; 6 GB</li>
-							<li><span class ="spec_head">Rear Camera:</span> &nbsp; Dual 12 MP (1.4µm, 1.0µm) AF</li>
-							<li><span class ="spec_head">Front Camera:</span> &nbsp; 8 MP, f/1.7, 25mm (wide), 1/3.6", 1.22µm, AF</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 5.0, A2DP, LE, aptX</li>
-							<li><span class ="spec_head">Protection:</span> &nbsp; Corning Gorilla Glass 5</li>
-							<li><span class ="spec_head">USB:</span> &nbsp; 3.1, Type-C 1.0 reversible connector</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; Non-removable Li-Ion 3500 mAh battery (Qi/PMA wireless charging)</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/cQjDHBtO_hI" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="omen">HP Omen 15-dc0101tx</th>
-					<td><ul><li><span class ="spec_head">Processor:</span> &nbsp; Intel® Core™ i7-8750H</li>
-							<li><span class ="spec_head">Operating System:</span> &nbsp; Windows 10 Home 64</li>
-							<li><span class ="spec_head">Chipset:</span> &nbsp; Intel® HM370</li>
-							<li><span class ="spec_head">Main Memory:</span> &nbsp; 16 GB DDR4-2666 SDRAM (2 x 8 GB)</li>
-							<li><span class ="spec_head">Display:</span> &nbsp; 15.6" diagonal FHD IPS anti-glare micro-edge WLED-backlit (1920 x 1080)</li>
-							<li><span class ="spec_head">Video Graphics:</span> &nbsp; NVIDIA® GeForce® GTX 1050 4GB Graphics</li>
-							<li><span class ="spec_head">Hard Drive:</span> &nbsp; 256GB M.2 NVME SSD, 1 TB 7200 rpm SATA</li>
-							<li><span class ="spec_head">Audio features:</span> &nbsp; Bang & Olufsen, dual speakers, HP Audio Boost, DTS Headphone:X™ support</li>
-							<li><span class ="spec_head">Card Reader:</span> &nbsp; 1 multi-format SD media card reader</li>
-							<li><span class ="spec_head">Keyboard:</span> &nbsp; Full-size 2-zone lighting backlit keyboard with numeric keypad and NKRO</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 Combo</li>
-							<li><span class ="spec_head">Interface:</span> &nbsp; 1 x HDMI 2.0, 1 x Mini DisplayPort™, 1 x USB 3.1 Type-C™, 3 x USB 3.1 Gen 1</li>
-							<li><span class ="spec_head">Battery:</span> &nbsp; 3-cell, 52 Wh Li-ion</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/LTLKXBdJFwg" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-				<tr>
-					<th id ="pi3">Raspberry Pi 3B+</th>
-					<td><ul><li><span class ="spec_head">Dimensions:</span> &nbsp; 82mm x 56mm x 19.5mm</li>
-							<li><span class ="spec_head">Processor:</span> &nbsp; Broadcom BCM2837B0 quad-core A53 (ARMv8) 64-bit @ 1.4GHz</li>
-							<li><span class ="spec_head">Operating System:</span> &nbsp; Raspbian OS</li>
-							<li><span class ="spec_head">Main Memory:</span> &nbsp; 1GB LPDDR2 SDRAM</li>
-							<li><span class ="spec_head">Video Graphics:</span> &nbsp; Broadcom Videocore-IV</li>
-							<li><span class ="spec_head">Storage:</span> &nbsp; Micro-SD</li>
-							<li><span class ="spec_head">GPIO:</span> &nbsp; 40-pin GPIO header, populated</li>
-							<li><span class ="spec_head">Bluetooth:</span> &nbsp; 4.2, Bluetooth Low Energy (BLE)</li>
-							<li><span class ="spec_head">Ethernet:</span> &nbsp; 10/100/1000BASE-T Ethernet limited to 300Mbps (RJ-45 connector)</li>
-							<li><span class ="spec_head">WLAN:</span> &nbsp; 802.11ac WiFi wireless Networking;IEEE 802.11.b/g/n/ac compatible</li>
-							<li><span class ="spec_head">Ports:</span> &nbsp; HDMI, 3.5mm analogue audio-video jack, 4x USB 2.0, Camera Serial Interface (CSI), Display Serial Interface (DSI)</li>
-							<li><span class ="spec_head">Input voltage:</span> &nbsp; 5V DC</li></ul></td>
-					<td class ="vid"><iframe class ="mar_fix" width="560" height="315" src="https://www.youtube.com/embed/zQZxdiz2UAs" frameborder="0" allowfullscreen></iframe></td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
-		<div id ="right_top"><a href ="#anchor">Top &#8679;</a></div>
-		<footer>
-			<img src ="images/footer.jpg" width ="100%" height ="150px"> <!-- Source : http://www.sclance.com/pngs/blue-banner-png/view-page-3.htm -->
-			<div id ="foot_link">
-			<a href ="index.html">Home</a> | 
-			<a href ="details.html">Details</a> | 
-			<a href ="gallery.html">Gallery</a> | 
-			<a href ="contact.html">Contact Us</a>
-			</div>
-			<div id ="contact">
-			Harpreet Singh<br/>
-			Contact No.: (+61) 400 900 400<br/>
-			Address: 1 Some Street, Suburb VIC 1234
-			</div>
-		<div class ="copy_icons">	
-			<a href ="https://www.facebook.com/"><img src ="images/Facebook.png" /></a> <!-- Source : https://www.vecteezy.com/ -->
-			<a href ="https://www.twitter.com/"><img src ="images/Twitter.png" /></a> <!-- Source : https://www.vecteezy.com/ -->
-			<a href ="https://www.instagram.com/"><img src ="images/Instagram.png" /></a> <!-- Source : https://www.vecteezy.com/ -->
-			<a href ="https://www.youtube.com/"><img src ="images/YouTube.png" /></a> <!-- Source : https://www.vecteezy.com/ -->
-		</div>
-			<span>© 2019-2010 Harpreet Singh. All rights reserved.</span>
-		</footer>
-	</body>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale =1.0">
+    <title>My Technical World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="my_project.css"/>
+</head>
+
+<body onload="startTime()">
+
+<div id="anchor">
+    <div class="container">
+        <img src="images/title.png" alt="Image not Found"/>
+        <!-- Source : http://www.stbrendanscollege.com/index.php/home/news_description/154/Technology -->
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg" id="main-nav">
+    <div class="container">
+        <ul class="nav navbar-nav m-auto">
+            <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+            <li class="nav-item d-down">
+                <a class="nav-link text-light drop-button" href="details.html">Details</a>
+                <div class="drop_content">
+                    <a class="nav-link text-light" href="details.html#n3110">Nokia 3110 classic</a>
+                    <a class="nav-link text-light" href="details.html#bp">BlackBerry Pearl 9100</a>
+                    <a class="nav-link text-light" href="details.html#an53">Asus N53JQ</a>
+                    <a class="nav-link text-light" href="details.html#onex">HTC One X</a>
+                    <a class="nav-link text-light" href="details.html#m7">HTC One M7</a>
+                    <a class="nav-link text-light" href="details.html#m8">HTC One M8</a>
+                    <a class="nav-link text-light" href="details.html#s6">Samsung Galaxy S6</a>
+                    <a class="nav-link text-light" href="details.html#s7">Samsung Galaxy S7</a>
+                    <a class="nav-link text-light" href="details.html#u11">HTC U11</a>
+                    <a class="nav-link text-light" href="details.html#s9">Samsung Galaxy S9+</a>
+                    <a class="nav-link text-light" href="details.html#omen">HP Omen 15</a>
+                    <a class="nav-link text-light" href="details.html#pi3">Raspberry Pi 3 B+</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link text-light" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div id="clock" class="nav-link text-light"></div>
+    </div>
+</nav>
+
+<div class="container py-5" id="details-div">
+    <h1>Specifications</h1>
+    <div class="row py-3" id="details-header">
+        <div class="col-2">
+            <h5>Devices</h5></div>
+        <div class="col-5">
+            <h5 class="ml-3">Specifications</h5></div>
+        <div class="col-5 text-center">
+            <h5>Advertisement</h5></div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="n3110">Nokia 3110 classic</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Resolution: </strong>128 x 160 pixels</li>
+                <li><strong class="spec_head">Camera: </strong>1.3 megapixels</li>
+                <li><strong class="spec_head">Internal storage: </strong>0.009 GB</li>
+                <li><strong class="spec_head">Storage expansion: </strong>microSD</li>
+                <li><strong class="spec_head">Battery: </strong>1020 mAh</li>
+                <li><strong class="spec_head">Browser: </strong>HTML, XHTML, WAP 2.0, Flash Lite (2.0)</li>
+                <li><strong class="spec_head">GSM: </strong>900, 1800, 1900 MHz</li>
+                <li><strong class="spec_head">2G Data: </strong>EDGE</li>
+                <li><strong class="spec_head">Bluetooth: </strong>2.0</li>
+                <li><strong class="spec_head">USB: </strong>Yes</li>
+                <li><strong class="spec_head">Music Support: </strong>MP3, AAC, AAC+, eAAC+, WMA, MP4, AMR</li>
+                <li><strong class="spec_head">Video playback: </strong>MPEG4, H.263, 3GPP</li>
+                <li><strong class="spec_head">Radio: </strong>FM, Stereo</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/HcpPNLLNELs" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="bp">BlackBerry Pearl 9100</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Network: </strong>GSM / HSPA</li>
+                <li><strong class="spec_head">Dimensions: </strong>108 x 50 x 13.3 mm</li>
+                <li><strong class="spec_head">Keyboard: </strong>QWERTY</li>
+                <li><strong class="spec_head">Resolution: </strong>360 x 400 pixels</li>
+                <li><strong class="spec_head">Card slot: </strong>microSD, up to 32 GB</li>
+                <li><strong class="spec_head">Internal: </strong>256 MB</li>
+                <li><strong class="spec_head">Camera: </strong>3.15 MP, AF</li>
+                <li><strong class="spec_head">Video: </strong>Yes</li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 b/g/n</li>
+                <li><strong class="spec_head">Bluetooth: </strong>2.1, A2DP</li>
+                <li><strong class="spec_head">GPS: </strong>Yes, with A-GPS</li>
+                <li><strong class="spec_head">Browser: </strong>HTML</li>
+                <li><strong class="spec_head">Battery: </strong>Removable Li-Ion 1150 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/7lnNvw1ZCe0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="an53">Asus N53JQ</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Processor: </strong>Intel® Core™ i7 Processor 720QM</li>
+                <li><strong class="spec_head">Operating System: </strong>Windows® 7 Home Basic</li>
+                <li><strong class="spec_head">Chipset: </strong>Mobile Intel® HM55 Express Chipset</li>
+                <li><strong class="spec_head">Main Memory: </strong>4GB - DDR3 1066 MHz SDRAM</li>
+                <li><strong class="spec_head">Display: </strong>15.6" HD (1366x768)/Full HD (1920x1080)</li>
+                <li><strong class="spec_head">Video Graphics: </strong>NVIDIA® GeForce® GT 425M with 1GB DDR3 VRAM</li>
+                <li><strong class="spec_head">Hard Drive: </strong>2.5" 9.5mm SATA 640GB,5400rpm</li>
+                <li><strong class="spec_head">Optical Drive: </strong>DVD Super Multi Double Layer</li>
+                <li><strong class="spec_head">Card Reader: </strong>5 in 1 card reader SD,MMC,MS,MS-Pro,MS-Duo</li>
+                <li><strong class="spec_head">Video Camera: </strong>2.0 Mega Pixel web camera</li>
+                <li><strong class="spec_head">WLAN: </strong>Integrated 802.11 b/g/n</li>
+                <li><strong class="spec_head">Interface: </strong>1 x VGA port, 1 x USB 3.0 port, 2 x USB 2.0 ports, 1 x
+                    HDMI
+                </li>
+                <li><strong class="spec_head">Battery: </strong>6 cells, 4400 mAh 47 Whrs</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/c84UKNzMQII" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="onex">HTC One X</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>134.36 x 69.9 x 8.9 mm</li>
+                <li><strong class="spec_head">Display: </strong>4.7-inch Super LCD2 capacitive touchscreen
+                    (720 x 1280)
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android 4.0 (Ice Cream Sandwich)</li>
+                <li><strong class="spec_head">Processor: </strong>Quad-core 1.5GHz Tegra 3</li>
+                <li><strong class="spec_head">RAM: </strong>1GB</li>
+                <li><strong class="spec_head">Storage: </strong>32GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>8-megapixel w/ AF and LED flash</li>
+                <li><strong class="spec_head">Front Camera: </strong>1.3-megapixel</li>
+                <li><strong class="spec_head">Protection: </strong>Corning Gorilla Glass</li>
+                <li><strong class="spec_head">Bluetooth: </strong>Version 4.0 w/ A2DP</li>
+                <li><strong class="spec_head">NFC: </strong>Yes</li>
+                <li><strong class="spec_head">Audio: </strong>Beats Audio</li>
+                <li><strong class="spec_head">Battery: </strong>1800mAh Non-removable</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/tFdInvU1w4Y" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="m7">HTC One M7</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Size: </strong>137.4 x 68.2 x 9.3mm</li>
+                <li><strong class="spec_head">CPU: </strong>Qualcomm® Snapdragon™ 600, quad-core, 1.7GHz</li>
+                <li><strong class="spec_head">Storage: </strong>32GB</li>
+                <li><strong class="spec_head">RAM: </strong>2 GB DDR2</li>
+                <li><strong class="spec_head">OS: </strong>Android™ 4.1.2 (Jelly Bean) with HTC Sense™</li>
+                <li><strong class="spec_head">Display: </strong>4.7 inch, Full HD 1080p, 468 PPI</li>
+                <li><strong class="spec_head">Sound Enhancement: </strong>HTC BoomSound™, Beats Audio</li>
+                <li><strong class="spec_head">Rear Camera: </strong>4 MP, f/2.0, 28mm (wide), 1/3", 2µm, OIS,
+                    AF
+                </li>
+                <li><strong class="spec_head">Front Camera: </strong>2.1 MP</li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA,
+                    hotspot
+                </li>
+                <li><strong class="spec_head">Bluetooth: </strong>4.0, A2DP, aptX</li>
+                <li><strong class="spec_head">GPS: </strong>Yes, with A-GPS, GLONASS</li>
+                <li><strong class="spec_head">Battery: </strong>Embedded Li-polymer 2300 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/N9A8NnBbW_A" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="m8">HTC One M8</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>146.4 x 70.6 x 9.4 mm</li>
+                <li><strong class="spec_head">Display: </strong>5.0 inches Super LCD3 (1080 x 1920 pixels)
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android 4.4.2 (KitKat), Sense UI 6</li>
+                <li><strong class="spec_head">CPU: </strong>Quad-core 2.3 GHz Krait 400</li>
+                <li><strong class="spec_head">Internal: </strong>32 GB</li>
+                <li><strong class="spec_head">RAM: </strong>2 GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>4 MP, f/2.0, 27mm (wide), 1/3", 2µm, AF
+                </li>
+                <li><strong class="spec_head">Front Camera: </strong>5 MP</li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi
+                    Direct, DLNA, hotspot
+                </li>
+                <li><strong class="spec_head">Bluetooth: </strong>4.0, A2DP, aptX</li>
+                <li><strong class="spec_head">Protection: </strong>Corning Gorilla Glass 3</li>
+                <li><strong class="spec_head">GPS: </strong>Yes, with A-GPS, GLONASS</li>
+                <li><strong class="spec_head">Battery: </strong>Non-removable Li-Ion 2600 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/u6U-WvJHifk" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="s6">Samsung Galaxy S6</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>143.4 x 70.5 x 6.8 mm</li>
+                <li><strong class="spec_head">Display: </strong>Super AMOLED 5.1 inches (1440 x 2560 pixels)
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android 5.0.2 (Lollipop), TouchWiz UI</li>
+                <li><strong class="spec_head">CPU: </strong>Octa-core (4x2.1 GHz Cortex-A57 & 4x1.5 GHz
+                    Cortex-A53)
+                </li>
+                <li><strong class="spec_head">Internal: </strong>32 GB</li>
+                <li><strong class="spec_head">RAM: </strong>3 GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>16 MP, f/1.9, 28mm (wide), 1/2.6",
+                    1.12µm, OIS, AF
+                </li>
+                <li><strong class="spec_head">Front Camera: </strong>5 MP, f/1.9, 22mm (wide), 1/4.1", 1.34µm
+                </li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi
+                    Direct, hotspot
+                </li>
+                <li><strong class="spec_head">Bluetooth: </strong>4.1, A2DP, LE, aptX</li>
+                <li><strong class="spec_head">Protection: </strong>Front/back glass (Gorilla Glass 4)</li>
+                <li><strong class="spec_head">GPS: </strong>Yes, with A-GPS, GLONASS, BDS</li>
+                <li><strong class="spec_head">Battery: </strong>Non-removable Li-Ion 2550 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/qAJm4XD2mUY" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="s7">Samsung Galaxy S7</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>142.4 x 69.6 x 7.9 mm</li>
+                <li><strong class="spec_head">Display: </strong>Super AMOLED 5.1 inches (1440 x 2560 pixels)
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android 6.0 (Marshmallow), TouchWiz UI</li>
+                <li><strong class="spec_head">CPU: </strong>Octa-core (4x2.3 GHz Mongoose & 4x1.6 GHz
+                    Cortex-A53)
+                </li>
+                <li><strong class="spec_head">Internal: </strong>32 GB</li>
+                <li><strong class="spec_head">RAM: </strong>4 GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>12 MP, f/1.7, 26mm (wide), 1/2.55",
+                    1.4µm, Dual Pixel PDAF, OIS
+                </li>
+                <li><strong class="spec_head">Front Camera: </strong>5 MP, f/1.7, 22mm (wide), 1/4.1", 1.34µm
+                </li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi
+                    Direct, hotspot
+                </li>
+                <li><strong class="spec_head">Bluetooth: </strong>4.2, A2DP, LE, aptX</li>
+                <li><strong class="spec_head">Protection: </strong>Corning Gorilla Glass 4</li>
+                <li><strong class="spec_head">GPS: </strong>Yes, with A-GPS, GLONASS, BDS</li>
+                <li><strong class="spec_head">Battery: </strong>Non-removable Li-Ion 3000 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/T3mlX-9j-Vs" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="u11">HTC U11</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>153.9 x 75.9 x 7.9 mm</li>
+                <li><strong class="spec_head">Display: </strong>5.5 inch, Quad HD (2560 x 1440 pixels) Super
+                    LCD 5
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android™ 7.1.1 with HTC Sense™</li>
+                <li><strong class="spec_head">CPU: </strong>Qualcomm® Snapdragon™ 835, 64 bit octa-core, up
+                    to 2.45 Ghz
+                </li>
+                <li><strong class="spec_head">Internal: </strong>64GB</li>
+                <li><strong class="spec_head">RAM: </strong>4 GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>12MP (HTC UltraPixel™ 3 with 1.4μm pixel)
+                </li>
+                <li><strong class="spec_head">Front Camera: </strong>16MP</li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi® 802.11 a/b/g/n/ac (2.4 & 5 GHz)</li>
+                <li><strong class="spec_head">Bluetooth: </strong>BlueTooth® 5.0</li>
+                <li><strong class="spec_head">Protection: </strong>3D Corning® Gorilla® Glass 5</li>
+                <li><strong class="spec_head">Connection Ports: </strong>USB 3.1 Gen 1, Type-C</li>
+                <li><strong class="spec_head">Battery: </strong>3000 mAh</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/vbC4q_2nq5I" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="s9">Samsung Galaxy S9 Plus</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>147.7 x 68.7 x 8.5 mm</li>
+                <li><strong class="spec_head">Display: </strong>2960 x 1440 (Quad HD+) Super AMOLED (6.1"
+                    rounded corners)
+                </li>
+                <li><strong class="spec_head">OS: </strong>Android 8.0 (Oreo)</li>
+                <li><strong class="spec_head">CPU: </strong>Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz
+                    Kryo 385 Silver)
+                </li>
+                <li><strong class="spec_head">Internal: </strong>64 GB</li>
+                <li><strong class="spec_head">RAM: </strong>6 GB</li>
+                <li><strong class="spec_head">Rear Camera: </strong>Dual 12 MP (1.4µm, 1.0µm) AF</li>
+                <li><strong class="spec_head">Front Camera: </strong>8 MP, f/1.7, 25mm (wide), 1/3.6",
+                    1.22µm, AF
+                </li>
+                <li><strong class="spec_head">WLAN: </strong>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi
+                    Direct, hotspot
+                </li>
+                <li><strong class="spec_head">Bluetooth: </strong>5.0, A2DP, LE, aptX</li>
+                <li><strong class="spec_head">Protection: </strong>Corning Gorilla Glass 5</li>
+                <li><strong class="spec_head">USB: </strong>3.1, Type-C 1.0 reversible connector</li>
+                <li><strong class="spec_head">Battery: </strong>Non-removable Li-Ion 3500 mAh battery (Qi/PMA
+                    wireless charging)
+                </li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/cQjDHBtO_hI" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="omen">HP Omen 15-dc0101tx</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Processor: </strong>Intel® Core™ i7-8750H</li>
+                <li><strong class="spec_head">Operating System: </strong>Windows 10 Home 64</li>
+                <li><strong class="spec_head">Chipset: </strong>Intel® HM370</li>
+                <li><strong class="spec_head">Main Memory: </strong>16 GB DDR4-2666 SDRAM (2 x 8 GB)</li>
+                <li><strong class="spec_head">Display: </strong>15.6" diagonal FHD IPS anti-glare micro-edge
+                    WLED-backlit (1920 x 1080)
+                </li>
+                <li><strong class="spec_head">Video Graphics: </strong>NVIDIA® GeForce® GTX 1050 4GB Graphics
+                </li>
+                <li><strong class="spec_head">Hard Drive: </strong>256GB M.2 NVME SSD, 1 TB 7200 rpm SATA
+                </li>
+                <li><strong class="spec_head">Audio features: </strong>Bang & Olufsen, dual speakers, HP
+                    Audio Boost, DTS Headphone:X™ support
+                </li>
+                <li><strong class="spec_head">Card Reader: </strong>1 multi-format SD media card reader</li>
+                <li><strong class="spec_head">Keyboard: </strong>Full-size 2-zone lighting backlit keyboard
+                    with numeric keypad and NKRO
+                </li>
+                <li><strong class="spec_head">WLAN: </strong>Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)
+                    Wi-Fi® and Bluetooth® 5 Combo
+                </li>
+                <li><strong class="spec_head">Interface: </strong>1 x HDMI 2.0, 1 x Mini DisplayPort™, 1 x
+                    USB 3.1 Type-C™, 3 x USB 3.1 Gen 1
+                </li>
+                <li><strong class="spec_head">Battery: </strong>3-cell, 52 Wh Li-ion</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/LTLKXBdJFwg" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2" id="pi3">Raspberry Pi 3B+</div>
+        <div class="col-5">
+            <ul>
+                <li><strong class="spec_head">Dimensions: </strong>82mm x 56mm x 19.5mm</li>
+                <li><strong class="spec_head">Processor: </strong>Broadcom BCM2837B0 quad-core A53 (ARMv8)
+                    64-bit @ 1.4GHz
+                </li>
+                <li><strong class="spec_head">Operating System: </strong>Raspbian OS</li>
+                <li><strong class="spec_head">Main Memory: </strong>1GB LPDDR2 SDRAM</li>
+                <li><strong class="spec_head">Video Graphics: </strong>Broadcom Videocore-IV</li>
+                <li><strong class="spec_head">Storage: </strong>Micro-SD</li>
+                <li><strong class="spec_head">GPIO: </strong>40-pin GPIO header, populated</li>
+                <li><strong class="spec_head">Bluetooth: </strong>4.2, Bluetooth Low Energy (BLE)</li>
+                <li><strong class="spec_head">Ethernet: </strong>10/100/1000BASE-T Ethernet limited to
+                    300Mbps (RJ-45 connector)
+                </li>
+                <li><strong class="spec_head">WLAN: </strong>802.11ac WiFi wireless Networking;IEEE
+                    802.11.b/g/n/ac compatible
+                </li>
+                <li><strong class="spec_head">Ports: </strong>HDMI, 3.5mm analogue audio-video jack, 4x USB
+                    2.0, Camera Serial Interface (CSI), Display Serial Interface (DSI)
+                </li>
+                <li><strong class="spec_head">Input voltage: </strong>5V DC</li>
+            </ul>
+        </div>
+        <div class="col-5 video-div">
+            <iframe src="https://www.youtube.com/embed/zQZxdiz2UAs" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="right_top"><a href="#anchor">Top &#8679;</a></div>
+</div>
+
+<footer id="page-bottom" class="py-4">
+    <div class="container">
+        <div class="row text-light">
+            <div class="col-4">
+                <div class="row pb-4">
+                    <div class="col" id="footer-navbar">
+                        <a class="text-light" href="index.html">Home</a>
+                        <strong>|</strong>
+                        <a class="text-light" href="details.html">Details</a>
+                        <strong>|</strong>
+                        <a class="text-light" href="gallery.html">Gallery</a>
+                        <strong>|</strong>
+                        <a class="text-light" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <strong>© 2020-2021 Harpreet Singh. All rights reserved.</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/hsbanga89/" target="_blank"
+                           class="fa fa-linkedin text-light"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/hsbanga89" target="_blank"
+                           class="fa fa-github-alt text-light"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://stackoverflow.com/users/14179385/hstest" target="_blank"
+                           class="fa fa-stack-overflow text-light"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 text-right">
+                Harpreet Singh<br/>
+                Contact No.: (+61) 400 900 400<br/>
+                Address: 1 Some Street, Suburb VIC 1234
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="my-java.js"></script>
+
+</body>
 </html>
